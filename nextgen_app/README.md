@@ -122,10 +122,22 @@ flutter pub get
 ```
 
 ### 3. Firebase Configuration
-The app is pre-configured with Firebase. Ensure you have:
-- `google-services.json` in `android/app/`
-- `firebase_options.dart` properly configured
-- Firebase project: `chatrx-ef365`
+The app uses environment variables for Firebase configuration. Follow these steps:
+
+1. **Copy environment template:**
+   ```bash
+   cp env.example .env
+   ```
+
+2. **Fill in your Firebase credentials in `.env`:**
+   - Get your Firebase config from Firebase Console
+   - Replace all placeholder values with your actual Firebase project details
+   - Never commit the `.env` file to version control
+
+3. **Required Firebase files:**
+   - `google-services.json` in `android/app/`
+   - `GoogleService-Info.plist` in `ios/Runner/` (for iOS)
+   - Environment variables in `.env` file
 
 ### 4. Run the Application
 ```bash
