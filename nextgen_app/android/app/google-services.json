@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "325399101677",
+    "firebase_url": "https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatrx-ef365",
+    "storage_bucket": "chatrx-ef365.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325399101677:android:5571a813f762252d34cce4",
+        "android_client_info": {
+          "package_name": "com.padmavi.chatrx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT5EiRapF2nwg_S5OwxhmwrR2r3CQZAXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

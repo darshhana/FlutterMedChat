@@ -1,0 +1,28 @@
+{
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatrx-ef365",
+          "appId": "1:325399101677:android:d4ccacf74f5f713834cce4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatrx-ef365",
+          "configurations": {
+            "android": "1:325399101677:android:d4ccacf74f5f713834cce4",
+            "ios": "1:325399101677:ios:243503b5bab2e62434cce4",
+            "macos": "1:325399101677:ios:243503b5bab2e62434cce4",
+            "web": "1:325399101677:web:a66f8cc55af4964934cce4",
+            "windows": "1:325399101677:web:70f925ab3d0ad7c034cce4"
+          }
+        }
+      }
+    }
+  }
+}

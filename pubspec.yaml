@@ -1,0 +1,6 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider_plus: ^1.0.0
+  responsive_grid_list: ^1.4.0
+  smooth_page_indicator: ^1.1.0 

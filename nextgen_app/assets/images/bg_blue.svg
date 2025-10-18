@@ -1,0 +1,26 @@
+<svg width="360" height="411" viewBox="0 0 360 411" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_231_27)">
+<mask id="mask0_231_27" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="360" height="411">
+<rect width="360" height="410.959" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_231_27)">
+<circle cx="180" cy="145.65" r="265.309" fill="#1876D5"/>
+<circle cx="180" cy="145.65" r="265.309" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="265.309" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="265.309" fill="#10457A" fill-opacity="0.5"/>
+<circle cx="180" cy="145.65" r="199.282" fill="#1876D5"/>
+<circle cx="180" cy="145.65" r="199.282" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="199.282" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="199.282" fill="#0F4072" fill-opacity="0.75"/>
+<circle cx="180" cy="145.65" r="135.191" fill="#1876D5"/>
+<circle cx="180" cy="145.65" r="135.191" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="135.191" fill="#1462B1"/>
+<circle cx="180" cy="145.65" r="135.191" fill="#0D3D6D"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_231_27">
+<rect width="360" height="410.959" fill="white"/>
+</clipPath>
+</defs>
+</svg>
