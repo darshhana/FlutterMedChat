@@ -41,58 +41,75 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDuG9-wAq77ffbM2yVdDSH4tV3CL9QU62s',
-    appId: '1:325399101677:web:a66f8cc55af4964934cce4',
-    messagingSenderId: '325399101677',
-    projectId: 'chatrx-ef365',
-    authDomain: 'chatrx-ef365.firebaseapp.com',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY', defaultValue: ''),
+    appId: String.fromEnvironment('FIREBASE_WEB_APP_ID', defaultValue: ''),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID',
+        defaultValue: ''),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: ''),
+    authDomain:
+        String.fromEnvironment('FIREBASE_AUTH_DOMAIN', defaultValue: ''),
     databaseURL:
-        'https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'chatrx-ef365.firebasestorage.app',
-    measurementId: 'G-YBWXBD2S2V',
+        String.fromEnvironment('FIREBASE_DATABASE_URL', defaultValue: ''),
+    storageBucket:
+        String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: ''),
+    measurementId:
+        String.fromEnvironment('FIREBASE_MEASUREMENT_ID', defaultValue: ''),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCT5EiRapF2nwg_S5OwxhmwrR2r3CQZAXg',
-    appId: '1:325399101677:android:5571a813f762252d34cce4',
-    messagingSenderId: '325399101677',
-    projectId: 'chatrx-ef365',
+    apiKey:
+        String.fromEnvironment('FIREBASE_ANDROID_API_KEY', defaultValue: ''),
+    appId: String.fromEnvironment('FIREBASE_ANDROID_APP_ID', defaultValue: ''),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID',
+        defaultValue: ''),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: ''),
     databaseURL:
-        'https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'chatrx-ef365.firebasestorage.app',
+        String.fromEnvironment('FIREBASE_DATABASE_URL', defaultValue: ''),
+    storageBucket:
+        String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: ''),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCgqCtUi7T7PrQlwNMgiJpysIrdDZZGhvc',
-    appId: '1:325399101677:ios:243503b5bab2e62434cce4',
-    messagingSenderId: '325399101677',
-    projectId: 'chatrx-ef365',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY', defaultValue: ''),
+    appId: String.fromEnvironment('FIREBASE_IOS_APP_ID', defaultValue: ''),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID',
+        defaultValue: ''),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: ''),
     databaseURL:
-        'https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'chatrx-ef365.firebasestorage.app',
-    iosBundleId: 'com.example.nextgenApp',
+        String.fromEnvironment('FIREBASE_DATABASE_URL', defaultValue: ''),
+    storageBucket:
+        String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: ''),
+    iosBundleId:
+        String.fromEnvironment('FIREBASE_IOS_BUNDLE_ID', defaultValue: ''),
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCgqCtUi7T7PrQlwNMgiJpysIrdDZZGhvc',
-    appId: '1:325399101677:ios:243503b5bab2e62434cce4',
-    messagingSenderId: '325399101677',
-    projectId: 'chatrx-ef365',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY', defaultValue: ''),
+    appId: String.fromEnvironment('FIREBASE_IOS_APP_ID', defaultValue: ''),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID',
+        defaultValue: ''),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: ''),
     databaseURL:
-        'https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'chatrx-ef365.firebasestorage.app',
-    iosBundleId: 'com.example.nextgenApp',
+        String.fromEnvironment('FIREBASE_DATABASE_URL', defaultValue: ''),
+    storageBucket:
+        String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: ''),
+    iosBundleId:
+        String.fromEnvironment('FIREBASE_IOS_BUNDLE_ID', defaultValue: ''),
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDuG9-wAq77ffbM2yVdDSH4tV3CL9QU62s',
-    appId: '1:325399101677:web:70f925ab3d0ad7c034cce4',
-    messagingSenderId: '325399101677',
-    projectId: 'chatrx-ef365',
-    authDomain: 'chatrx-ef365.firebaseapp.com',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY', defaultValue: ''),
+    appId: String.fromEnvironment('FIREBASE_WEB_APP_ID', defaultValue: ''),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID',
+        defaultValue: ''),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID', defaultValue: ''),
+    authDomain:
+        String.fromEnvironment('FIREBASE_AUTH_DOMAIN', defaultValue: ''),
     databaseURL:
-        'https://chatrx-ef365-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'chatrx-ef365.firebasestorage.app',
-    measurementId: 'G-P54TGJR2VH',
+        String.fromEnvironment('FIREBASE_DATABASE_URL', defaultValue: ''),
+    storageBucket:
+        String.fromEnvironment('FIREBASE_STORAGE_BUCKET', defaultValue: ''),
+    measurementId:
+        String.fromEnvironment('FIREBASE_MEASUREMENT_ID', defaultValue: ''),
   );
 }
